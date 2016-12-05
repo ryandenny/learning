@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var theLabel: UILabel!
     
     @IBOutlet weak var text1: UITextField!
-    
     @IBOutlet weak var text2: UITextField!
     
     //var tapCount = 0
@@ -32,11 +31,17 @@ class ViewController: UIViewController {
         }
         */
        
+        let addition = false
         
         //cast as string theLabel.text = String(Double(text1.text!)! + Double(text2.text!)!)
         
         //string interpolation:
-        theLabel.text = "Answer: \(Double(text1.text!)! + Double(text2.text!)!)"
+        if addition {
+            theLabel.text = "Answer: \(Double(text1.text!)! + Double(text2.text!)!)"
+        } else {
+            theLabel.text = "Answer: \(Double(text1.text!)! - Double(text2.text!)!)"
+        }
+        
         
     }
     
