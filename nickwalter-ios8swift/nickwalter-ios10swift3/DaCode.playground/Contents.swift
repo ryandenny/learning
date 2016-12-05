@@ -2,27 +2,24 @@
 
 import UIKit
 
-var str = "Hello, playground"
+var a = 6
+var b = 3
 
-var wallet = 0
+a + b
+a*b
+a-b
+a/b
 
-wallet = 50
+var c = a*b + 400
 
-wallet = 45
-
-wallet = 35
-
-var birthYear = 1983
-
-if birthYear > 2000 {
-    print("You were born in the 21st century.")
-} else if birthYear > 1900 {
-    print("You were born in the 20th century.")
-}
+5 / 8
 
 
-var tapCount = 0
-tapCount+=1
+
+
+
+
+
 
 
 
